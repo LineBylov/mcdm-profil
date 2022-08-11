@@ -4,23 +4,26 @@
     "lastname" : "Sørensen",
     "img" : "assets/profileimage/profile_1.jpg",
     "age" : "57",
-    "city" : "København", 
+    "postalcode" : "2660",
+    "city" : "Brønby", 
     "sex" : "han"
   },
   {
     "name" : "Hans Erik",
-    "lastname" : "Henriksen", 
+    "lastname" : "Nielsen", 
     "img" : "assets/profileimage/profile_2.jpg",
     "age" : "30",
+    "postalcode" : "8600",
     "city" : "Silkeborg", 
     "sex" : "han"
   },
   {
     "name" : "RolMarie",
-    "lastname" : "Bunder",
+    "lastname" : "Funder",
     "img" : "assets/profileimage/profile_3.jpg",
     "age" : "27",
-    "city" : "Odense", 
+    "postalcode" : "5000",
+    "city" : "Odense C", 
     "sex" : "hun"
   },
   {
@@ -28,6 +31,7 @@
     "lastname" : "Jørensen",
     "img" : "assets/profileimage/profile_4.jpg",
     "age" : "78",
+    "postalcode" : "7000",
     "city" : "Fredericia", 
     "sex" : "hun"
   },
@@ -36,7 +40,8 @@
     "lastname" : "Hansen",
     "img" : "assets/profileimage/profile_5.jpg",
     "age" : "38",
-    "city" : "Århus", 
+    "postalcode" : "8000",
+    "city" : "Århus C", 
     "sex" : "hun"
   },
   {
@@ -44,6 +49,7 @@
     "lastname" : "Larsen",
     "img" : "assets/profileimage/profile_6.jpg",
     "age" : "63",
+    "postalcode" : "8300",
     "city" : "Odder", 
     "sex" : "han"
   }

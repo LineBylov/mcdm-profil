@@ -9,6 +9,14 @@ body{
   background-color: #f8f891;
 }
 
+.line{
+background-color: #f1f190;
+width: 80%;
+height: 10px;
+margin: 5px 0;
+transform: translateX(-5px);
+}
+
 .profileList{
   height: 100%;
   width: 100%;
@@ -22,13 +30,23 @@ body{
  width: 300px;
  margin: 2rem;
  font-family: Arial, Helvetica, sans-serif;
+ border: 10px solid #f1f190;
+ padding: 5px;
 }
 
 h1{
-  font-size: 30px;
+  font-size: 27px;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .profileimg{
   width: 70%;
+}
+
+.imgcenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: .5rem;
 }

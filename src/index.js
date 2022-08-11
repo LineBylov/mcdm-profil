@@ -28,9 +28,26 @@ const renderProfilList = (profileList) => {
 
   let userTmpl = (profile) => `
   <div class="profileContent">
-  <h1>${profile.name} ${profile.lastname}</h1>
-  <img class="profileimg" src="${profile.img}" >
-  <p> ${profile.name} ${profile.lastname} er ${profile.age} år og ${profile.sex} bor i ${profile.city}.</p>
+    <h1>${profile.name} ${profile.lastname}</h1>
+    <div class="imgcenter">
+      <img class="profileimg" src="${profile.img}" >
+    </div>
+    <p> ${profile.name} ${profile.lastname} er ${profile.age} år og ${profile.sex} bor i ${profile.city}.</p>
+  
+    <div class="line"></div>
+
+    <div>
+      <p> 
+        Navn: ${profile.name} ${profile.lastname}
+        <br>
+        Alder: ${profile.age}
+        <br>
+        Køn: ${profile.sex}
+        <br>
+        By: ${profile.postalcode}, ${profile.city}
+      </p>
+    </div>
+
   </div>
   `
 
