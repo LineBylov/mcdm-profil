@@ -19,4 +19,32 @@ const renderProfileData = () => {
    // console.log(imageContainer.src)
   });
 }
-renderProfileData();
+// renderProfileData();
+
+
+const renderProfilList = (profileList) => {
+
+  let profileListContainer = document.querySelector('#profileList')
+
+  let userTmpl = (profile) => `
+  <div class="profileContent">
+  <h1>${profile.name} ${profile.lastname}</h1>
+  <img class="profileimg" src="${profile.img}" >
+  <p> ${profile.name} ${profile.lastname} er ${profile.age} år og ${profile.sex} bor i ${profile.city}.</p>
+  </div>
+  `
+
+  profileList.map((profile) => {
+    profileListContainer.insertAdjacentHTML('beforeend', userTmpl(profile));
+  })
+
+}
+
+const getProfilList = () => {
+
+  return fetch('/data/profileList.json')
+  .then((respons) => respons.json());
+  
+}
+
+getProfilList() .then((profileList) => renderProfilList(profileList))

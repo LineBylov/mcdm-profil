@@ -1,8 +1,50 @@
 [
   {
-    "name" : "et navn"
+    "name" : "Ole",
+    "lastname" : "Sørensen",
+    "img" : "assets/profileimage/profile_1.jpg",
+    "age" : "57",
+    "city" : "København", 
+    "sex" : "han"
   },
   {
-    "name" : "et navn"
+    "name" : "Hans Erik",
+    "lastname" : "Henriksen", 
+    "img" : "assets/profileimage/profile_2.jpg",
+    "age" : "30",
+    "city" : "Silkeborg", 
+    "sex" : "han"
+  },
+  {
+    "name" : "RolMarie",
+    "lastname" : "Bunder",
+    "img" : "assets/profileimage/profile_3.jpg",
+    "age" : "27",
+    "city" : "Odense", 
+    "sex" : "hun"
+  },
+  {
+    "name" : "Inger",
+    "lastname" : "Jørensen",
+    "img" : "assets/profileimage/profile_4.jpg",
+    "age" : "78",
+    "city" : "Fredericia", 
+    "sex" : "hun"
+  },
+  {
+    "name" : "Ann Mette",
+    "lastname" : "Hansen",
+    "img" : "assets/profileimage/profile_5.jpg",
+    "age" : "38",
+    "city" : "Århus", 
+    "sex" : "hun"
+  },
+  {
+    "name" : "Hans Jørgen",
+    "lastname" : "Larsen",
+    "img" : "assets/profileimage/profile_6.jpg",
+    "age" : "63",
+    "city" : "Odder", 
+    "sex" : "han"
   }
 ]
